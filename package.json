@@ -3,7 +3,7 @@
   "version": "0.229.1",
   "main": "./lib/main",
   "description": "Explore and open files in the current project.",
-  "repository": "https://github.com/atom/tree-view",
+  "repository": "https://github.com/pulsar-edit/tree-view",
   "license": "MIT",
   "engines": {
     "atom": "*"
@@ -98,7 +98,7 @@
     "hiddenOnStartup": {
       "type": "boolean",
       "default": false,
-      "description": "When Atom is opened, the view is hidden."
+      "description": "When Pulsar is opened, the view is hidden."
     }
   }
 }
