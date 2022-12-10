@@ -16,10 +16,6 @@
     "temp": "~0.9.0",
     "underscore-plus": "^1.0.0"
   },
-  "devDependencies": {
-    "coffeelint": "^1.9.7",
-    "standard": "^11.0.1"
-  },
   "deserializers": {
     "TreeView": "getTreeViewInstance"
   },
@@ -42,20 +38,6 @@
         "1.0.0": "provideTreeView"
       }
     }
-  },
-  "standard": {
-    "env": [
-      "browser",
-      "node",
-      "atomtest",
-      "jasmine"
-    ],
-    "globals": [
-      "atom"
-    ],
-    "ignore": [
-      "/spec/fixtures/"
-    ]
   },
   "configSchema": {
     "squashDirectoryNames": {
