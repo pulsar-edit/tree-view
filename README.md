@@ -1,5 +1,4 @@
 # Tree View package
-[![CI](https://github.com/atom/tree-view/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/tree-view/actions/workflows/ci.yml)
 
 Explore and open files in the current project.
 
@@ -14,7 +13,7 @@ To move the Tree view to the opposite side, select and drag the Tree view dock t
 ![](https://f.cloud.github.com/assets/671378/2241932/6d9cface-9ceb-11e3-9026-31d5011d889d.png)
 
 ## API
-This package provides a service that you can use in other Atom packages.
+This package provides a service that you can use in other Pulsar packages.
 To use it, include `tree-view` in the `consumedServices` section of your
 `package.json`:
 

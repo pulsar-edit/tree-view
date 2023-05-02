@@ -3,7 +3,7 @@
   "version": "0.229.1",
   "main": "./lib/main",
   "description": "Explore and open files in the current project.",
-  "repository": "https://github.com/atom/tree-view",
+  "repository": "https://github.com/pulsar-edit/tree-view",
   "license": "MIT",
   "engines": {
     "atom": "*"
@@ -15,10 +15,6 @@
     "pathwatcher": "^8.1.0",
     "temp": "~0.9.0",
     "underscore-plus": "^1.0.0"
-  },
-  "devDependencies": {
-    "coffeelint": "^1.9.7",
-    "standard": "^11.0.1"
   },
   "deserializers": {
     "TreeView": "getTreeViewInstance"
@@ -42,20 +38,6 @@
         "1.0.0": "provideTreeView"
       }
     }
-  },
-  "standard": {
-    "env": [
-      "browser",
-      "node",
-      "atomtest",
-      "jasmine"
-    ],
-    "globals": [
-      "atom"
-    ],
-    "ignore": [
-      "/spec/fixtures/"
-    ]
   },
   "configSchema": {
     "squashDirectoryNames": {
@@ -98,7 +80,7 @@
     "hiddenOnStartup": {
       "type": "boolean",
       "default": false,
-      "description": "When Atom is opened, the view is hidden."
+      "description": "When Pulsar is opened, the view is hidden."
     }
   }
 }
