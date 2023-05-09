@@ -1,3 +1,5 @@
+# This Repo is now archived under Pulsar, due to being [bundled](https://github.com/pulsar-edit/pulsar/pull/513) within the Editor
+
 # Tree View package
 
 Explore and open files in the current project.
